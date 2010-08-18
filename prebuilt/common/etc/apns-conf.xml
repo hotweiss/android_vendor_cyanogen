@@ -559,8 +559,8 @@
   <apn carrier="Optimus MMS 3G" mcc="268" mnc="03" apn="umts" user="*" password="*" server="*" mmsc="http://mmsc:10021/mmsc" mmsproxy="62.169.66.5" mmsport="8799" type="mms"/>
   <apn carrier="Orange AM" mcc="283" mnc="10" apn="internet" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Orange AM MMS" mcc="283" mnc="10" apn="mms" user="" server="" password="" mmsc="http://mms/" mmsproxy="192.168.220.251" mmsport="3128" type="mms"/>
-  <apn carrier="Orange AT" mcc="232" mnc="05" apn="web.one.at" user="web" password="web" server="*" mmsc="http://mmsc.one.at/mms/wapenc" mmsproxy="194.024.128.118" mmsport="8080" type="default,supl"/>
-  <apn carrier="Orange AT-MMS" mcc="232" mnc="05" apn="mms.one.at" user="mms" password="mms" server="*" mmsc="http://mmsc.one.at/mms/wapenc" mmsproxy="194.024.128.118" mmsport="8080" type="mms"/>
+  <apn carrier="Orange AT" mcc="232" mnc="05" apn="orange.web" user="web" password="web" server="*" type="default,supl"/>
+  <apn carrier="Orange AT MMS" mcc="232" mnc="05" apn="orange.mms" user="mms" password="mms" server="*" mmsc="http://mmsc.orange.at/mms/wapenc" mmsproxy="194.024.128.118" mmsport="8080" type="mms"/>
   <apn carrier="Orange BW" mcc="652" mnc="02" apn="internet.orange.co.bw" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Orange BW MMS" mcc="652" mnc="02" apn="mms.orange.co.bw" user="" server="" password="" mmsc="http://10.0.0.242/servlets/mms" mmsproxy="10.0.0.226" mmsport="8080" type="mms"/>
   <apn carrier="Orange CH" mcc="228" mnc="03" apn="internet" type="default"/>
@@ -689,6 +689,8 @@
   <apn carrier="Rogers #2" apn="rogers.core.appl1.apn" username="" password="" mcc="302" mnc="720"/>
   <apn carrier="Rogers MMS" apn="rogers-core-appl1.apn" username="" password="" server="" mmsc="http://mms.grps.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="72" type="mms"/>
   <apn carrier="Rogers MMS" apn="rogers-core-appl1.apn" username="" password="" server="" mmsc="http://mms.grps.rogers.com" mmsproxy="10.128.1.69" mmsport="80" mcc="302" mnc="720" type="mms"/>
+  <apn carrier="SaskTel" mcc="302" mnc="780" apn="inet.stm.sk.ca" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="SaskTel MMS" mcc="302" mnc="780" apn="proxy.stm.sk.ca" proxy="mig.sasktel.com" port="80" user="" server="" password="" mmsc="http://mms.sasktel.com" mmsproxy="http://mig.sasktel.com" mmsport="80" type="mms"/>
   <apn carrier="Saunalahti" mcc="244" mnc="21" apn="internet.saunalahti" user="" server="" password="" mmsc="" type="default"/>
   <apn carrier="Saunalahti MMS" mcc="244" mnc="21" apn="mms.saunalahti.fi" user="" server="" password="" mmsc="http://mms.saunalahti.fi:8002" mmsproxy="62.142.4.197" mmsport="8080" type="mms"/>
   <apn carrier="SCTL GPRS" numeric="72407" mcc="724" mnc="07" apn="sercomtel.com.br" user="sercomtel" server="" password="sercomtel" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
@@ -920,6 +922,8 @@
   <apn carrier="U Mobile Internet" apn="my3g" mcc="502" mnc="18" type="default"/>
   <apn carrier="U Mobile MMS" apn="my3g" mmsc="http://10.30.3.11/servlets/mms" mmsproxy="10.30.5.11" mmsport="8080" mcc="502" mnc="18" type="mms"/>
   <apn carrier="Unitel" mcc="631" mnc="02" apn="internet.unitel.co.ao" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Utel" mcc="255" mnc="07" apn="3g.utel.ua" user="" server="" password="" mmsc="" type="default"/>
+  <apn carrier="Utel MMS" mcc="255" mnc="07" apn="3g.utel.ua" user="" server="" password="" mmsc="http://10.212.1.4/mms/wapenc" mmsproxy="10.212.3.148" mmsport="8080" type="mms"/>
   <apn carrier="Velcom Web" apn="web.velcom.by" mcc="257" mnc="01" user="web" password="web" type="default,supl"/>
   <apn carrier="Velcom BY // Web Plus" apn="plus.velcom.by" mcc="257" mnc="01" user="plus" password="plus" type="default,supl"/>
   <apn carrier="Velcom BY // Web Basic" apn="web1.velcom.by" mcc="257" mnc="01" user="web1" password="web1" type="default,supl"/>
@@ -963,6 +967,8 @@
   <apn carrier="VIVO MMS" numeric="72410" mcc="724" mnc="10" apn="mms.vivo.com.br" user="vivo" server="" password="vivo" proxy="" port="" mmsproxy="200.142.130.104" mmsport="80" mmsprotocol="" mmsc="http://termnat.vivomms.com.br:8088/mms" type="mms" />
   <apn carrier="VIVO ZAP" numeric="72411" mcc="724" mnc="11" apn="zap.vivo.com.br" user="vivo" server="" password="vivo" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="" mmsc="null" type="default" />
   <apn carrier="VIVO MMS" numeric="72411" mcc="724" mnc="11" apn="mms.vivo.com.br" user="vivo" server="" password="vivo" proxy="" port="" mmsproxy="200.142.130.104" mmsport="80" mmsprotocol="" mmsc="http://termnat.vivomms.com.br:8088/mms" type="mms" />
+  <apn carrier="VM" apn="ofnew.fr" user="orange" password="orange" mcc="208" mnc="01" operator="VM" type="default" />
+  <apn carrier="VM MMS" apn="orange.acte" user="orange" password="orange" mmsc="http://mms.orange.fr" mmsproxy="192.168.010.200" mmsport="8080" mcc="208" mnc="01" operator="VM" type="mms" />
   <apn carrier="Vodacom CD" mcc="630" mnc="01" apn="vodanet" user="vodalive" password="" server="" mmsc="" type="default"/>
   <apn carrier="Vodacom ZA" mcc="655" mnc="01" apn="internet" user="" password="" server="" mmsc="" type="default,supl"/>
   <apn carrier="Vodacom ZA MMS" apn="mms.vodacom.net" proxy="" port="" user="" password="" server="" mmsc="http://mmsc.vodacom4me.co.za/" mmsproxy="196.6.128.13" mmsport="8080" mcc="655" mnc="01" type="mms"/>
